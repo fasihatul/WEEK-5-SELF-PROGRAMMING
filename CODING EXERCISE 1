@@ -1,0 +1,25 @@
+package selfprog;
+import java.util.Scanner;
+public class sp1 {
+public static void main(String[] args) {
+double max=-999;
+double min=999;
+int i=0,temp;
+
+	Scanner sc=new Scanner(System.in);
+
+	while(i<7) {
+		temp=sc.nextInt();
+		if(temp>max) {
+			max=temp;
+		}
+	    if(temp<min) {
+	    	min=temp;
+	    }
+      i=i+1;
+}
+	System.out.println("min"+ min);
+	System.out.println("max"+ max);
+	
+}
+}
