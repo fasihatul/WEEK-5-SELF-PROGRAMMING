@@ -1,0 +1,13 @@
+package selfprog;
+
+public class sp2 {
+	public static void main (String args[])
+	{
+		double y=15.0;
+		double x=25.0;
+		if (y!=x)
+	     System.out.println("Result : y not equal x");
+		
+	}
+
+}
