@@ -1,0 +1,14 @@
+package selfprog;
+import java.util.Scanner;
+public class sp5 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double amount=sc.nextDouble();
+		double balance=sc.nextDouble();
+		if (amount <= balance)
+	    balance = balance - amount;
+		System.out.println("Acct new balance = " + balance);
+
+	}
+
+}
