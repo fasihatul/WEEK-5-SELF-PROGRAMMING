@@ -1,0 +1,23 @@
+package selfprog;
+import java.util.Scanner;
+public class sp7 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double overdraf_penalty=5.00;
+		double amount=sc.nextDouble();
+		double balance=sc.nextDouble();
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+		System.out.println("Acct new balance ="  + balance);
+		}
+		else
+		{
+		 balance = balance - overdraf_penalty;
+	     System.out.println("TRANSACTION NOT ALLOWED");
+	     
+		} 
+
+
+	}
+}
